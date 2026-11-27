@@ -1,10 +1,17 @@
 ---
-name: unihiker-m10-control
-description: 使用 SSH 从电脑操作行空板 UNIHIKER M10：连接、查版本、选择 Python、Wi-Fi 配网、板载屏显示和截图、键鼠调试、PinPong API 查询与板载硬件控制。用户编写、运行或排查 M10 程序时使用。仅适用于 UNIHIKER M10。
+name: unihiker-m10
+description: >-
+  UNIHIKER 官方维护的行空板 M10（UNIHIKER M10）操作技能。
+  只要用户要操作行空板 M10，就可以调用此 Skill。
+  例如开发行空板M10上的程序、通过 SSH 连接、查看状态和版本、选择 Python、运行程序、配置网络、操作屏幕和截图、控制板载硬件或排查故障。
 license: MIT
+metadata:
+  publisher: UNIHIKER
+  repository: https://github.com/UNIHIKER/unihiker-m10-agent-skill
+  repository-backup: https://gitee.com/unihiker/unihiker-m10-agent-skill
 ---
 
-# UNIHIKER M10 Control
+# UNIHIKER M10
 
 M10 是运行 Linux 和完整 Python 的单板电脑。直接经 SSH 操作，不需要 Mind+，也不用把 Agent 安装在板上。此 Skill 提供文档和脚本，不能授予网络、USB 或 SSH 权限。
 

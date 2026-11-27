@@ -82,7 +82,7 @@ def main(argv=None):
     if args.verbose:
         print(json.dumps(result, ensure_ascii=True))
     elif result['status'] == 'update_available':
-        print(f"UNIHIKER M10 Control update available: v{result['installed']} -> v{result['latest']}. "
+        print(f"UNIHIKER M10 Skill update available: v{result['installed']} -> v{result['latest']}. "
               f"To update: {result['url']}")
     return 0
 
